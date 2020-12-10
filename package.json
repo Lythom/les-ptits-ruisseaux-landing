@@ -1,0 +1,30 @@
+{
+  "name": "les-ptits-ruisseau-chateaubriant-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "postcss styles.css -o public/styles.css"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.html",
+  "author": "Samuel Bouchet - Magali Ploteau - Blandine Dupré",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.0",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
