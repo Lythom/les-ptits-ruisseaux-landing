@@ -3,9 +3,14 @@
   "name": "Les p'tits ruisseaux - épicerie durable Châteaubriant",
   "icons": [
     {
-      "src": "logo168.png",
-      "type": "image/png",
-      "sizes": "168x168"
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
