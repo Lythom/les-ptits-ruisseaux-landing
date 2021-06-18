@@ -1,5 +1,5 @@
 @media (min-width: 544px) {
-[class*="grid-2"].has-gutter > * {
+[class*="grid-2"].has-gutter.has-gutter > * {
     width: calc(100% / 2 - 6rem - 0.01px);
     margin-right: 3rem;
     margin-left: 3rem;
