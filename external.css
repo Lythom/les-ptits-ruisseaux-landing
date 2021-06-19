@@ -1,8 +1,24 @@
 @media (min-width: 544px) {
-[class*="grid-2"].has-gutter.has-gutter > * {
-    width: calc(100% / 2 - 6rem - 0.01px);
-    margin-right: 3rem;
-    margin-left: 3rem;
-    color: red;
+.large-gutter > * {
+    width: calc(100% / 2 - 5rem - 0.01px) !important;
+    margin-right: 2.5rem !important;
+    margin-left: 2.5rem !important;
+}
+
+#article_photo {
+    margin: 1rem 2.5rem 1rem 0;
+}
+
+body {
+   font-size: 1.5em;
+   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+.home-valeurs .home-col-valeur {
+    padding: 2.5rem;
+}
+
+.lh-m {
+    line-height: 1.5;
 }
 }
